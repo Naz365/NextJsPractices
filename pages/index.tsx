@@ -60,7 +60,25 @@ const IndexPage = () => (
         </div>
       </div>
     </nav>
-    
+
+    <main>
+      <section className="bg-red-200 container w-3/4 mx-auto space-x-10 mt-10">
+        <div className="flex flex-col justify-center p-2 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+          <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+            <img
+              src="https://i.ibb.co/5F8GX3P/275695272-306152975005517-7744725845089821097-n.png"
+              alt=""
+              className="h-20 w-22"
+            />
+          </div>
+          <div className="flex flex-col justify-center p-2 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+            <h1 className="text-2xl font-bold leading-none ">
+            Jazeerat Dubai Visa Application from
+            </h1>
+          </div>
+        </div>
+      </section>
+    </main>
   </>
 );
 
